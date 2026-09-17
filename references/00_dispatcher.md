@@ -43,6 +43,11 @@ In architectural decision records, save the definitive verdict for the terminal 
 * **Flaccid Cadence**: *"We decided to migrate our caching infrastructure over to Redis because of memory leak issues with Memcached."*
 * **Cargo Cadence**: *"Due to persistent memory leaks in Memcached, we migrated our entire caching tier to **Redis**."*
 
+### Principle 4: Sentence Length Proportionality & Invariant Brevity
+Scale sentence length strictly by the cognitive weight of its payload:
+* **Critical System Invariants (<10 words)**: Use ultra-short, punchy sentences for security boundaries, invariants, and failure points (`"Deadlocks trigger immediate process termination."`).
+* **Contextual Nuance (15–25 words)**: Reserve longer sentences for balancing trade-offs, qualifying multi-system interactions, and cascading states.
+
 ---
 
 ## 3. Engineering Application Scenarios
