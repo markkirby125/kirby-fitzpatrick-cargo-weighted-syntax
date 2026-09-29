@@ -1,6 +1,6 @@
 ---
 name: kirby-fitzpatrick-cargo-weighted-syntax
-description: "Position heavy technical concepts and error terms in the emphatic end-focus position." Use this when working on fitzpatrick cargo weighted syntax.
+description: "Position heavy technical concepts and error terms in the emphatic end-focus position. Use this when working on fitzpatrick cargo weighted syntax."
 category: "Writing & Communication"
 triggers:
   - "cargo-weighted syntax"
